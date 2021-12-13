@@ -40,6 +40,22 @@ header, button, a:hover {
   color: white;
 }
 
+/* Main Page */ 
+
+main {
+  background-image: url('medias/background.jfif');
+  padding-top: 60px;
+}
+
+#presentation {
+  padding-bottom: 25px;
+}
+
+h2, p {
+  color: white;
+}
+
+
 /* Media Queries */ 
 
 @media screen and (max-width: 770px) {
