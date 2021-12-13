@@ -16,3 +16,38 @@ body {
   padding-left: 15px;
   color: white !important;
 }
+
+/* Header */
+
+header {
+  margin-top: 40px;
+  background-image: url('medias/background.jfif');
+}
+
+header, h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 60px;
+  padding: 200px;
+}
+
+header, button, a {
+  color: white;
+}
+
+header, button, a:hover {
+  color: white;
+}
+
+/* Media Queries */ 
+
+@media screen and (max-width: 770px) {
+  header {
+    background-size: 100%;
+  }
+  header, h1 {
+    font-size: 30px;
+    padding: 50px;
+  }
+}
