@@ -1,0 +1,18 @@
+body {
+  height: 1300px;
+  text-align: justify;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-size: 25px;
+  color: white !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-item a {
+  font-size: 20px;
+  padding-left: 15px;
+  color: white !important;
+}
